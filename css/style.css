@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {
+
+}
+
+.callout-container {
+    background: url("/images/whiskey-background.jpg") no-repeat bottom right; /* deleted "fixed" from the end */
+    height: 100vh;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quotes-container {
+    
+}
+
+.features-container {
+
+}
+
+.favorites.container {
+
+}
+

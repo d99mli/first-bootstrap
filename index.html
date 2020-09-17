@@ -6,7 +6,10 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/e0a8e07206.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
+
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
@@ -35,7 +38,7 @@
             <a href="/login">Sign In / Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -43,8 +46,9 @@
                 </div>
             </div>
         </div>
-    
+    </div> -->
         <!-- Callout -->
+    <div class="container callout-container">
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -59,9 +63,10 @@
             </div>
         </div>
         <!-- /. callout -->
-        <hr>
-
-        <!-- Quotes -->
+    </div>
+   
+    <!-- Quotes -->
+    <div class="quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -97,10 +102,11 @@
                 </div>
             </div>
         </section>
-        <!-- /. Quotes -->
-        <hr>
+    </div> 
+    <!-- /. Quotes -->
 
-        <!-- Features -->
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -131,11 +137,11 @@
                 </div>
             </div>
         </section>
-        <!-- /. features -->
+    </div>
+    <!-- /. features -->
 
-        <hr>
-
-        <!-- Monthly favorites-->
+<!-- Monthly favorites-->
+    <div class="favorites-container">
         <section>
         <h2 class="text-uppercase">
             <div class="alert alert-light" role="alert">
@@ -176,8 +182,9 @@
                     </tr>
             </table>        
         </section>
+    </div>
         <!-- /. Monthly favorites-->
-    </article>
+    <!-- Here was previosly /. article and the start tag was altered but in video this "article" was simply removed.. -->
 
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
